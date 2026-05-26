@@ -171,6 +171,31 @@
     });
   });
 
+  /* Gallery lightbox */
+  const galleryItems = document.querySelectorAll('.gallery__item');
+  if (galleryItems.length) {
+    const lb = document.createElement('div');
+    lb.className = 'lightbox';
+    lb.innerHTML = '<button class="lightbox__close" aria-label="Close">✕</button><img class="lightbox__img" alt="" />';
+    document.body.appendChild(lb);
+    const lbImg = lb.querySelector('.lightbox__img');
+    const lbClose = lb.querySelector('.lightbox__close');
+    const closeLb = () => { lb.classList.remove('lightbox--open'); document.body.style.overflow = ''; };
+    galleryItems.forEach(item => {
+      item.addEventListener('click', () => {
+        const img = item.querySelector('img');
+        if (!img) return;
+        lbImg.src = img.src;
+        lbImg.alt = img.alt;
+        lb.classList.add('lightbox--open');
+        document.body.style.overflow = 'hidden';
+      });
+    });
+    lb.addEventListener('click', e => { if (e.target === lb) closeLb(); });
+    lbClose.addEventListener('click', closeLb);
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLb(); });
+  }
+
   /* Try to autoplay hero video on iOS (muted+playsinline required) */
   const heroVid = document.querySelector('.hero__video');
   if (heroVid) {
