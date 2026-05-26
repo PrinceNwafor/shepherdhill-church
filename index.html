@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#1E3F7A" />
+  <meta name="description" content="Shepherdhill Baptist Church — The Sanctuary of Grace and Glory, Obanikoro, Lagos. Senior Pastor Rev. Dr. Israel O. Kristilere. Join us this Sunday." />
+  <meta property="og:title" content="Shepherdhill Baptist Church — Obanikoro, Lagos" />
+  <meta property="og:description" content="The Sanctuary of Grace and Glory. Worship with us this Sunday." />
+  <meta property="og:type" content="website" />
+  <title>Shepherdhill Baptist Church — Obanikoro, Lagos</title>
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpg" />
+  <link rel="apple-touch-icon" href="assets/logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav nav--transparent" id="main-nav" data-transparent="true">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="assets/logo.jpg" alt="Shepherdhill Baptist Church Logo" class="nav__logo-img" />
+        <div>
+          <div class="nav__logo-text">Shepherdhill</div>
+          <div class="nav__logo-sub">Baptist Church</div>
+        </div>
+      </a>
+      <ul class="nav__links">
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="sermons.html" class="nav__link">Sermons</a></li>
+        <li><a href="ministries.html" class="nav__link">Ministries</a></li>
+        <li><a href="events.html" class="nav__link">Events</a></li>
+        <li><a href="beliefs.html" class="nav__link">Beliefs</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+      </ul>
+      <div class="nav__actions">
+        <a href="give.html" class="btn btn--secondary btn--sm btn--desktop">Give</a>
+        <a href="plan-visit.html" class="btn btn--primary btn--sm">Plan a Visit</a>
+        <button class="nav__menu-btn" id="menu-btn" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MOBILE NAV -->
+  <div class="mobile-nav" id="mobile-nav">
+    <button class="mobile-nav__close" id="mobile-nav-close" aria-label="Close menu">✕</button>
+    <ul class="mobile-nav__links">
+      <li><a href="index.html" class="mobile-nav__link">Home</a></li>
+      <li><a href="about.html" class="mobile-nav__link">About</a></li>
+      <li><a href="sermons.html" class="mobile-nav__link">Sermons</a></li>
+      <li><a href="ministries.html" class="mobile-nav__link">Ministries</a></li>
+      <li><a href="events.html" class="mobile-nav__link">Events</a></li>
+      <li><a href="beliefs.html" class="mobile-nav__link">Beliefs</a></li>
+      <li><a href="plan-visit.html" class="mobile-nav__link">Plan a Visit</a></li>
+      <li><a href="give.html" class="mobile-nav__link">Give</a></li>
+      <li><a href="contact.html" class="mobile-nav__link">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <!-- HERO with MP4 video -->
+    <section class="hero">
+      <div class="hero__media">
+        <video class="hero__video" autoplay muted loop playsinline preload="auto" poster="assets/images/congregation-1.webp">
+          <source src="assets/videos/hero.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <div class="hero__content">
+        <span class="hero__label animate-fade-up">The Sanctuary of Grace &amp; Glory</span>
+        <h1 class="hero__title animate-fade-up animate-fade-up--delay-1">
+          Welcome to
+          <span>Shepherdhill</span>
+          Baptist Church
+        </h1>
+        <p class="hero__subtitle animate-fade-up animate-fade-up--delay-2">
+          A family in Obanikoro, Lagos — where every soul is valued, every life is restored,
+          and every season is met with the grace and glory of God.
+        </p>
+        <div class="hero__actions animate-fade-up animate-fade-up--delay-3">
+          <a href="plan-visit.html" class="btn btn--primary btn--lg">Plan Your Visit</a>
+          <a href="sermons.html" class="btn btn--ghost btn--lg">Watch a Message</a>
+        </div>
+      </div>
+
+      <div class="service-bar">
+        <div class="service-bar__inner">
+          <div class="service-bar__item">
+            <div class="service-bar__dot"></div>
+            <span><strong>Sunday Worship:</strong> 7:00am &amp; 9:30am</span>
+          </div>
+          <div class="service-bar__item">
+            <div class="service-bar__dot"></div>
+            <span><strong>Thursday Thanksgiving:</strong> 6:00pm</span>
+          </div>
+          <div class="service-bar__item">
+            <div class="service-bar__dot"></div>
+            <span><strong>Obanikoro,</strong> Lagos</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WELCOME -->
+    <section class="section section--warm">
+      <div class="container">
+        <div class="split">
+          <div class="reveal">
+            <span class="section-header__label">Our Heart</span>
+            <h2 class="mb-4">A Sanctuary of<br>Grace and Glory</h2>
+            <p class="text-lead mb-4">
+              Whether you are stepping in for the first time, or have walked with us for years —
+              there is room for you at Shepherdhill.
+            </p>
+            <p class="mb-6">
+              For decades, our doors in Obanikoro have opened to welcome the weary, the seeking, and
+              the searching. We believe in a God who meets people in the middle of every season,
+              and our mission is simple: to lead lives into the fullness of His grace and glory.
+            </p>
+            <div style="display:flex; gap: 12px; flex-wrap:wrap;">
+              <a href="about.html" class="btn btn--primary">Our Story</a>
+              <a href="plan-visit.html" class="btn btn--secondary">Visit This Sunday</a>
+            </div>
+          </div>
+
+          <div class="reveal">
+            <div class="stack-visual">
+              <div class="stack-visual__main">
+                <img src="assets/images/congregation-2.webp" alt="Shepherdhill Baptist Church congregation" />
+              </div>
+              <div class="stack-visual__accent">
+                <strong>2025</strong>
+                <span>The Year of<br>Triple Exaltation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PASTOR FEATURE -->
+    <section class="section section--cream">
+      <div class="container">
+        <div class="split">
+          <div class="reveal">
+            <div class="stack-visual">
+              <div class="stack-visual__main" style="width: 100%; height: 100%;">
+                <img src="assets/pastor/pastor-1.webp" alt="Rev. Dr. Israel O. Kristilere — Senior Pastor" style="object-position: center top;" />
+              </div>
+            </div>
+          </div>
+          <div class="reveal">
+            <span class="section-header__label">Meet Our Senior Pastor</span>
+            <h2 class="mb-4">Rev. Dr. Israel O. Kristilere</h2>
+            <blockquote class="mb-6">
+              "The silence of God is not the absence of God. Divine delay is not divine denial.
+              Your Father will show up."
+            </blockquote>
+            <p class="mb-4">
+              Rev. Dr. Israel O. Kristilere is the Senior Pastor of Shepherdhill Baptist Church,
+              the Sanctuary of Grace and Glory. An ordained minister of God's Word and Power, he
+              previously served as the pioneer pastor of Amazing Grace Baptist Church, Ilupeju, and
+              Senior Pastor of Ijero Baptist Church, Ebute-Metta (West).
+            </p>
+            <p class="mb-6">
+              He is the Founding President of Friends of Israel, Nigeria (FOIN), President of the
+              Christian Tourism Practitioners Association of Nigeria (CTPAN), and founder of Oasis
+              of Faith Ministries — reaching the world with the full gospel of Jesus Christ.
+            </p>
+            <a href="about.html" class="btn btn--secondary">Read His Full Story</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LATEST MESSAGES -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header section-header--center reveal">
+          <span class="section-header__label">Recent Messages</span>
+          <h2 class="section-header__title">Words That Meet You<br>Where You Are</h2>
+          <p class="section-header__desc">Every Sunday, fresh manna from Heaven. Catch up anytime.</p>
+        </div>
+
+        <div class="grid grid-3 reveal">
+          <div class="sermon-card">
+            <div class="sermon-card__thumb">
+              <img src="assets/pastor/pastor-1.webp" alt="Beautiful In His Time" />
+            </div>
+            <div class="sermon-card__body">
+              <div class="sermon-card__series">Year of Triple Exaltation</div>
+              <div class="sermon-card__title">Beautiful In His Time</div>
+              <div class="sermon-card__speaker">Rev. Dr. I. O. Kristilere · Ecclesiastes 3:9-11</div>
+            </div>
+          </div>
+
+          <div class="sermon-card">
+            <div class="sermon-card__thumb">
+              <img src="assets/pastor/sermon-stars-1.webp" alt="He Made The Stars Also" />
+            </div>
+            <div class="sermon-card__body">
+              <div class="sermon-card__series">Year of Triple Exaltation</div>
+              <div class="sermon-card__title">He Made The Stars Also</div>
+              <div class="sermon-card__speaker">Rev. Dr. I. O. Kristilere · Genesis 1:16</div>
+            </div>
+          </div>
+
+          <div class="sermon-card">
+            <div class="sermon-card__thumb">
+              <img src="assets/pastor/sermon-stars-2.webp" alt="Divine Strength For My High Places" />
+            </div>
+            <div class="sermon-card__body">
+              <div class="sermon-card__series">New Year Revival</div>
+              <div class="sermon-card__title">Divine Strength For My High Places</div>
+              <div class="sermon-card__speaker">Rev. Dr. I. O. Kristilere · Habakkuk 3:19</div>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align:center; margin-top: 2rem;" class="reveal">
+          <a href="sermons.html" class="btn btn--secondary btn--lg">View All Messages</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section style="background: var(--color-primary); padding: 4rem 0;">
+      <div class="container">
+        <div class="grid grid-4">
+          <div class="stat-card reveal">
+            <div class="stat-card__number" data-count="40" data-suffix="+">40+</div>
+            <div class="stat-card__label">Years of Ministry</div>
+          </div>
+          <div class="stat-card reveal">
+            <div class="stat-card__number" data-count="2000" data-suffix="+">2000+</div>
+            <div class="stat-card__label">Weekly Worshippers</div>
+          </div>
+          <div class="stat-card reveal">
+            <div class="stat-card__number" data-count="15" data-suffix="+">15+</div>
+            <div class="stat-card__label">Active Ministries</div>
+          </div>
+          <div class="stat-card reveal">
+            <div class="stat-card__number" data-count="3" data-suffix="">3</div>
+            <div class="stat-card__label">Weekly Services</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section section--warm">
+      <div class="container">
+        <div class="section-header section-header--center reveal">
+          <span class="section-header__label">Real Stories</span>
+          <h2 class="section-header__title">Lives Touched by Grace</h2>
+        </div>
+        <div class="grid grid-3 reveal">
+          <div class="testimonial">
+            <p class="testimonial__text">
+              "I came to Shepherdhill in the lowest season of my life. Today, I am restored — in
+              spirit, in family, in finances. This is truly a sanctuary of grace."
+            </p>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar">AO</div>
+              <div>
+                <div class="testimonial__name">Adeola O.</div>
+                <div class="testimonial__role">Member since 2019</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <p class="testimonial__text">
+              "The Word here is fresh and life-changing. Rev. Dr. Kristilere preaches with such
+              clarity and power that you go home with answers. My family is being shaped here."
+            </p>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar">CN</div>
+              <div>
+                <div class="testimonial__name">Chioma N.</div>
+                <div class="testimonial__role">Member since 2021</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <p class="testimonial__text">
+              "The warmth, the worship, the love — Shepherdhill is genuinely a family. My children
+              love coming. We have found home in Obanikoro."
+            </p>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar">T&amp;F</div>
+              <div>
+                <div class="testimonial__name">Tunde &amp; Funke</div>
+                <div class="testimonial__role">Family members</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- UPCOMING EVENTS -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header reveal" style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap: 16px;">
+          <div>
+            <span class="section-header__label">What's Coming</span>
+            <h2 style="margin-bottom: 0;">Upcoming Events</h2>
+          </div>
+          <a href="events.html" class="btn btn--secondary btn--sm">View All</a>
+        </div>
+
+        <div style="display:flex; flex-direction:column; gap: 12px;" class="reveal">
+          <div class="event-card">
+            <div class="event-card__date">
+              <div class="event-card__day">29</div>
+              <div class="event-card__month">May</div>
+            </div>
+            <div class="event-card__body">
+              <div class="event-card__title">Thursday Thanksgiving Service</div>
+              <div class="event-card__meta">
+                <span>🕕 6:00pm</span><span>📍 Main Auditorium</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="event-card">
+            <div class="event-card__date">
+              <div class="event-card__day">01</div>
+              <div class="event-card__month">Jun</div>
+            </div>
+            <div class="event-card__body">
+              <div class="event-card__title">Sunday Communion Service</div>
+              <div class="event-card__meta">
+                <span>🕖 7:00am &amp; 9:30am</span><span>📍 Main Auditorium</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="event-card">
+            <div class="event-card__date">
+              <div class="event-card__day">15</div>
+              <div class="event-card__month">Jun</div>
+            </div>
+            <div class="event-card__body">
+              <div class="event-card__title">Father's Day Celebration</div>
+              <div class="event-card__meta">
+                <span>🕘 9:30am</span><span>📍 Main Auditorium</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCRIPTURE -->
+    <div class="scripture-banner">
+      <p class="scripture-banner__text">
+        "Come to me, all you who are weary and burdened,<br>and I will give you rest."
+      </p>
+      <p class="scripture-banner__ref">Matthew 11:28</p>
+    </div>
+
+    <!-- PLAN VISIT CTA -->
+    <section class="section section--warm">
+      <div class="container">
+        <div class="split reveal">
+          <div>
+            <span class="section-header__label">Your First Step</span>
+            <h2 class="mb-4">Ready to Visit This Sunday?</h2>
+            <p class="text-lead mb-6">
+              We know walking into a new church can feel like a big step. Let us know
+              you're coming — someone will be ready to welcome you personally.
+            </p>
+            <ul style="display:flex; flex-direction:column; gap: 10px; margin-bottom: 24px;">
+              <li style="display:flex; gap: 12px; align-items:center;">
+                <span style="width:22px;height:22px;background:var(--color-accent-subtle);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--color-accent);font-size:12px;flex-shrink:0;">✓</span>
+                A friendly greeter waiting for you
+              </li>
+              <li style="display:flex; gap: 12px; align-items:center;">
+                <span style="width:22px;height:22px;background:var(--color-accent-subtle);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--color-accent);font-size:12px;flex-shrink:0;">✓</span>
+                Children's ministry for all ages
+              </li>
+              <li style="display:flex; gap: 12px; align-items:center;">
+                <span style="width:22px;height:22px;background:var(--color-accent-subtle);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--color-accent);font-size:12px;flex-shrink:0;">✓</span>
+                Easy parking on church grounds
+              </li>
+              <li style="display:flex; gap: 12px; align-items:center;">
+                <span style="width:22px;height:22px;background:var(--color-accent-subtle);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--color-accent);font-size:12px;flex-shrink:0;">✓</span>
+                No pressure — just a warm welcome
+              </li>
+            </ul>
+            <a href="plan-visit.html" class="btn btn--primary btn--lg">Plan My Visit</a>
+          </div>
+
+          <div class="prayer-form">
+            <h3 class="mb-2">I'm Planning to Visit</h3>
+            <p style="font-size: 0.875rem; color: var(--color-muted); margin-bottom: 1.5rem;">
+              Tell us about yourself and we'll reach out before Sunday.
+            </p>
+            <form id="visit-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="visit-fname">First Name</label>
+                  <input type="text" id="visit-fname" class="form-input" required />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="visit-lname">Last Name</label>
+                  <input type="text" id="visit-lname" class="form-input" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="visit-email">Email</label>
+                <input type="email" id="visit-email" class="form-input" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="visit-phone">Phone (optional)</label>
+                <input type="tel" id="visit-phone" class="form-input" />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="visit-date">Planned Sunday</label>
+                <select id="visit-date" class="form-select">
+                  <option value="">Choose a Sunday</option>
+                  <option>This Sunday</option>
+                  <option>Next Sunday</option>
+                  <option>Within the month</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn--primary btn--full btn--lg">
+                I'm Coming! Send My Info →
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GIVE -->
+    <section style="background: var(--color-primary); padding: 5rem 0; text-align:center;">
+      <div class="container">
+        <div class="reveal" style="max-width: 560px; margin: 0 auto;">
+          <span class="section-header__label" style="color: var(--color-accent-light);">Generosity</span>
+          <h2 style="color: white; margin-bottom: 16px;">Your Giving Changes Lives</h2>
+          <p style="color: rgba(255,255,255,0.75); font-size: 1.0625rem; line-height: 1.7; margin-bottom: 2rem;">
+            Every gift — large or small — funds the work of the gospel, supports families
+            in need, and extends grace beyond our walls.
+          </p>
+          <div style="display:flex; gap: 12px; justify-content:center; flex-wrap:wrap;">
+            <a href="give.html" class="btn btn--white btn--lg">Give Online</a>
+            <a href="give.html#bank" class="btn btn--ghost btn--lg">Bank Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" class="footer__logo">
+            <img src="assets/logo.jpg" alt="Shepherdhill Baptist Church" class="footer__logo-img" />
+            <div>
+              <span class="footer__logo-name">Shepherdhill</span>
+              <span class="footer__logo-sub">Baptist Church · Obanikoro</span>
+            </div>
+          </a>
+          <p class="footer__tagline">The Sanctuary of Grace and Glory. A family where every person is known, valued, and loved.</p>
+          <div class="footer__service-times">
+            <div class="footer__service-time"><span>Sunday Worship</span><span>7:00am &amp; 9:30am</span></div>
+            <div class="footer__service-time"><span>Thursday Thanksgiving</span><span>6:00pm</span></div>
+            <div class="footer__service-time"><span>Bible Study (Wed)</span><span>6:00pm</span></div>
+          </div>
+          <div class="footer__socials">
+            <a href="https://facebook.com/shepherdhillbc" class="footer__social" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+            </a>
+            <a href="https://instagram.com/shepherdhillbc" class="footer__social" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/></svg>
+            </a>
+            <a href="https://youtube.com/@shepherdhillbc" class="footer__social" target="_blank" rel="noopener" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Explore</h4>
+          <ul class="footer__links">
+            <li><a href="about.html" class="footer__link">About Us</a></li>
+            <li><a href="beliefs.html" class="footer__link">Our Beliefs</a></li>
+            <li><a href="ministries.html" class="footer__link">Ministries</a></li>
+            <li><a href="sermons.html" class="footer__link">Sermons</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Connect</h4>
+          <ul class="footer__links">
+            <li><a href="plan-visit.html" class="footer__link">Plan a Visit</a></li>
+            <li><a href="give.html" class="footer__link">Give Online</a></li>
+            <li><a href="contact.html#prayer" class="footer__link">Prayer Request</a></li>
+            <li><a href="contact.html" class="footer__link">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Find Us</h4>
+          <ul class="footer__links">
+            <li><span class="footer__link">Shepherdhill Baptist Church<br>Obanikoro, Lagos<br>Nigeria</span></li>
+            <li><a href="mailto:info@shepherdhillbc.org" class="footer__link">info@shepherdhillbc.org</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 Shepherdhill Baptist Church, Obanikoro. All rights reserved.</p>
+        <div style="display:flex; gap: 16px;">
+          <span>The Sanctuary of Grace &amp; Glory</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/2348000000000" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
